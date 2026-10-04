@@ -117,7 +117,7 @@ def main():
     print("-" * 45)
     print(f"Calculated Diabetes Risk: {prob * 100:.2f}%")
     
-    if prob >= 0.5:
+    if prob >= 0.4:
         print("Assessment Status: HIGH RISK (Positive Prediction)")
     else:
         print("Assessment Status: LOW RISK (Negative Prediction)")
