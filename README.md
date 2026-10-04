@@ -36,3 +36,6 @@ python predict.py --model artifacts\diabetes_risk_model.pt --values 2 130 70 25 
 ```
 
 `Outcome=1` means diabetes was recorded in the source data; it is not a diagnosis. This project is for research and education and needs external clinical validation before any health-care use.
+=======
+# diabetes-early-detection-dl
+>>>>>>> 93c2faa6277590218e2e342a11afe9f9cb06b666
